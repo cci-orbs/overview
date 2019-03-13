@@ -18,6 +18,14 @@ Please find the repository for the orb in question, and then open a GitHub Issue
 GitHub Issues shouldn't be used for general orb support, see [resources](#resources).
 
 
+### Creating New Repositories/Orbs
+
+1. The CPE Team should be added as admin.
+1. Force status checks should be enabled for `master`.
+1. Protect from pushing to `master` directly.
+1. Turn off Wiki/Projects for the repo.
+
+
 ## Resources
 
 [CircleCI Orb Docs](https://circleci.com/docs/2.0/orb-intro/#section=configuration) - Docs for using and creating CircleCI Orbs.
